@@ -1,7 +1,7 @@
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
-import profilePic from '../../public/images/profile/developer1.png'
+import developer1 from '../../public/images/profile/developer1.png'
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import { LinkArrow } from '@/components/Icons'
@@ -19,7 +19,7 @@ export default function Home() {
         <Layout className='pt-0'>
           <div className='flex items-center justify-between w-full'>
             <div className='w-1/2'>
-              <Image src={profilePic} alt="YashdeepJain" className='w-full h-auto'
+              <Image src={developer1} alt="YashdeepJain" className='w-full h-auto'
               priority
               sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
