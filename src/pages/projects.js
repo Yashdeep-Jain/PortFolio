@@ -32,7 +32,7 @@ const FeaturedProject = ({type, title, summary, img, link, github}) => {
                 <Link href={link} target='_blank' className='hover:underline underline-offset-2'>
                 <h2 className='MY-2 w-full text-left text-4xl font-bold dark:text-light'>{title}</h2>
             </Link>
-            <p className='my-2 font-medium text-dark'>{summary}</p>
+            <p className='my-2 font-medium text-dark dark:text-light'>{summary}</p>
             <div className='mt-2 flex items-center'>
             <Link href={github} target='_blank' className='w-10'> <GithubIcon />{" "} </Link>
             <Link href={link} target='_blank'
@@ -103,76 +103,46 @@ const projects = () => {
               <div className='grid grid-cols-12 gap-24 gap-y-32'>
                 <div className='col-span-12'>
                     <FeaturedProject
-                    title="Crypto Screener Application"
+                    title="RealTime Chat Application"
                     img={project1}
-                    summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                    It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                    local currency."
-                    link="/"
-                    github="/"
+                    summary=" Developed a scalable real-time chat application deployed on Aiven cloud infrastructure, utilizing Redis, Kafka, 
+and PostgreSQL.Implemented WebSocket for real-time communication, which might achieve 200ms message latency.
+ Utilized Redis Pub-Sub for message broadcasting, can handle up to 1000 messages per second and integrated
+Kafka for high-throughput data handling."
+                    link="https://github.com/Yashdeep-Jain/RealTimeChat"
+                    github="https://github.com/Yashdeep-Jain/RealTimeChat"
                     type="Featured Project"
                     />
                 </div>
-                <div className='col-span-6'>
-                <Project
-                    title="Crypto Screener Application"
-                    img={project1}
-                    summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                    It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                    local currency."
-                    link="/"
-                    github="/"
-                    type="Featured Project"
-                    />
-                </div>
-                <div className='col-span-6'>
-                <Project
-                    title="Crypto Screener Application"
-                    img={project1}
-                    summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                    It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                    local currency."
-                    link="/"
-                    github="/"
-                    type="Featured Project"
-                    />
-                </div>
-
                 <div className='col-span-12'>
                     <FeaturedProject
-                    title="Crypto Screener Application"
+                    title="MicroServices Project"
                     img={project1}
-                    summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                    It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                    local currency."
-                    link="/"
-                    github="/"
+                    summary=" Created a microservices project showcasing efficient communication between 3 microservices: User Service, 
+Hotel Service, and Rating Service, employing best practices. Implemented User Service for client interaction via API gateway secured with OKTA and utilized configuration 
+service for configuration management."
+                    link="https://github.com/Yashdeep-Jain/MicroServicesProject"
+                    github="https://github.com/Yashdeep-Jain/MicroServicesProject"
                     type="Featured Project"
                     />
                 </div>
 
                 <div className='col-span-6'>
                 <Project
-                    title="Crypto Screener Application"
+                    title="Kafka In One Repo"
                     img={project1}
-                    summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                    It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                    local currency."
-                    link="/"
-                    github="/"
-                    type="Featured Project"
+                    link="https://github.com/Yashdeep-Jain/KakfaInOneRepo"
+                    github="https://github.com/Yashdeep-Jain/KakfaInOneRepo"
+                    type="Project"
                     />
                 </div>
                 <div className='col-span-6'>
                 <Project
-                    title="Crypto Screener Application"
+                    title="Junit"
                     img={project1}
-                    summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                    It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                    local currency."
-                    link="/"
-                    github="/"
-                    type="Featured Project"
+                    link="https://github.com/Yashdeep-Jain/Junit"
+                    github="https://github.com/Yashdeep-Jain/Junit"
+                    type="Project"
                     />
                 </div>
                 

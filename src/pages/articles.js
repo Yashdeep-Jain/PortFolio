@@ -102,19 +102,16 @@ const articles = () => {
             <Layout className='pt-16'>
                 <AnimatedText text="Words Can Change The World!" className='mb-16' />
                 <ul className='grid grid-cols-2 gap-16'>
-                    <FeaturedArticle 
+                    {/* <FeaturedArticle 
                     title="Build A Custom Pagination Component In Reactjs From Scratch"
                     summary="Learn how to build a custom pagination component in ReactJS from scratch. 
                     Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
                     time="9 min read"
                     link="/"
                     img={article1}
-                    />
+                    /> */}
                     <FeaturedArticle 
-                    title="Build A Custom Pagination Component In Reactjs From Scratch"
-                    summary="Learn how to build a custom pagination component in ReactJS from scratch. 
-                    Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
-                    time="9 min read"
+                    title="COMING SOON"
                     link="/"
                     img={article2}
                     />
@@ -122,25 +119,25 @@ const articles = () => {
                 <h2 className='font-bold text-4xl w-full text-center my-16 mt-32'>All Articles</h2>
                 <ul>
                     <Article 
-                    title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+                    title="Coming soon"
                     date="March 22, 2024"
                     link="/"
                     img={article3}
                     />
                     <Article 
-                    title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+                    title="Coming soon"
                     date="March 22, 2024"
                     link="/"
                     img={article3}
                     />
                     <Article 
-                    title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+                    title="Coming soon"
                     date="March 22, 2024"
                     link="/"
                     img={article3}
                     />
                     <Article 
-                    title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+                    title="Coming soon"
                     date="March 22, 2024"
                     link="/"
                     img={article3}

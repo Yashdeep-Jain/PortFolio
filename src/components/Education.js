@@ -49,27 +49,25 @@ className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light
 
             <ul className='w-full flex flex-col items-start justify-between ml-4'>
                 <Details 
-                type="Bachelor Of Science In Computer Science"
-                time="2016-2020"
-                place="Massachusetts Institute Of Technology (MIT)"
-                info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
+                type="Bachelor Of Technology in CSE"
+                time="2018-2022"
+                place="Ram Dayal Engineering College ( R.D.E.C ) , U.P , India"
+                info="Relevant courses included Data Structures and Algorithms, Computer Networks, Compiler, Operating System and Artificial 
                 Intelligence."
                 />
 
                 <Details 
-                type="Bachelor Of Science In Computer Science"
-                time="2016-2020"
-                place="Massachusetts Institute Of Technology (MIT)"
-                info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                Intelligence."
+                type="Higher Secondary School"
+                time="2018"
+                place="Dayawati Modi Public School ( D.M.P.S ) , U.P , India"
+                info="Higher Secondary School C.B.S.E Course (PCM)"
                 />
 
                 <Details 
-                type="Bachelor Of Science In Computer Science"
-                time="2016-2020"
-                place="Massachusetts Institute Of Technology (MIT)"
-                info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                Intelligence."
+                type="High School"
+                time="2016"
+                place="Dayawati Modi Public School ( D.M.P.S ) , U.P , India"
+                info="High School C.B.S.E Course"
                 />
             </ul>
         </div>

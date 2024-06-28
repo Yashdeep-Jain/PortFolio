@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import { motion,useScroll } from 'framer-motion'
 import LiIcon from './LiIcon'
 
-const Details = ({position, company, companyLink, time, address, work}) => {
+const Details = ({position, company, companyLink, time, address, work, moreDetails}) => {
     const ref = useRef(null);
     return (
     <li ref={ref} className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex-col items-center justify-between'>
@@ -22,6 +22,9 @@ const Details = ({position, company, companyLink, time, address, work}) => {
             </span>
             <p className='font-medium w-full'>
                 {work}
+            </p>
+            <p className='font-medium w-full mt-2'>
+                {moreDetails}
             </p>
             </motion.div>
     </li>
@@ -53,12 +56,13 @@ className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light
                 position="Software Engineer" company="Infosys"
                 companyLink="www.infosys.com"
                 time="2022-Present" address="Bangalore, Karnataka"
-                work="Worked on a team responsible for developing new features for Google's 
-                search engine, including improving the accuracy and relevance of search results and 
-                developing new tools for data analysis and visualization."
+                work="Throughout my ongoing tenure in the capacity of a Digital Specialist Engineer and Full Stack Developer at Infosys Ltd., I have been actively involved in intricate projects, specifically focusing on Provider Life Cycle Management (PLM) within Infosys Helix."
+                moreDetails="
+                I have effectively applied my expertise in Java and Spring Boot to architect and implement resilient back-end services. Additionally, I have used Angular to create engaging user interfaces. It's worth noting that these technologies have played a pivotal role in enhancing the overall performance and functionality of the applications I have been involved in.
+                "
                 />
 
-                <Details 
+                {/* <Details 
                 position="Software Engineer" company="Infosys"
                 companyLink="www.infosys.com"
                 time="2022-Present" address="Bangalore, Karnataka"
@@ -74,7 +78,7 @@ className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light
                 work="Worked on a team responsible for developing new features for Google's 
                 search engine, including improving the accuracy and relevance of search results and 
                 developing new tools for data analysis and visualization."
-                />
+                /> */}
             </ul>
         </div>
     </div>

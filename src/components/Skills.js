@@ -26,10 +26,18 @@ const Skills = () => {
         '
         whileHover={{scale:1.05}}
         >
-          Web
+          Skills
         </motion.div>
-        <Skill name="Java" x="-5vw" y="-10vw"/>
-        <Skill name="Spring" x="20vw" y="2vw"/>
+        <Skill name="Java" x="-5vw" y="-21vw"/>
+        <Skill name="Spring Boot" x="10vw" y="5vw"/>
+        <Skill name="Kafka" x="-5vw" y="-12vw"/>
+        <Skill name="Redis" x="-12vw" y="2vw"/>
+        <Skill name="MicroServices" x="-28vw" y="10vw"/>
+        <Skill name="Azure" x="20vw" y="2vw"/>
+        <Skill name="Computer Network" x="28vw" y="-10vw"/>
+        <Skill name="Database" x="5vw" y="17vw"/>
+        <Skill name="Problem Solving" x="-20vw" y="-10vw"/>
+        <Skill name="Angular" x="10vw" y="-15vw"/>
       </div>
     </>
   )
