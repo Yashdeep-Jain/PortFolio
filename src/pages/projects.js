@@ -6,6 +6,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg"
+import githubprofile from "../../public/images/articles/githubprofile.png"
 import { motion } from 'framer-motion'
 
 const FramerImage = motion(Image);
@@ -104,7 +105,7 @@ const projects = () => {
                 <div className='col-span-12'>
                     <FeaturedProject
                     title="RealTime Chat Application"
-                    img={project1}
+                    img={githubprofile}
                     summary=" Developed a scalable real-time chat application deployed on Aiven cloud infrastructure, utilizing Redis, Kafka, 
 and PostgreSQL.Implemented WebSocket for real-time communication, which might achieve 200ms message latency.
  Utilized Redis Pub-Sub for message broadcasting, can handle up to 1000 messages per second and integrated
@@ -117,7 +118,7 @@ Kafka for high-throughput data handling."
                 <div className='col-span-12'>
                     <FeaturedProject
                     title="MicroServices Project"
-                    img={project1}
+                    img={githubprofile}
                     summary=" Created a microservices project showcasing efficient communication between 3 microservices: User Service, 
 Hotel Service, and Rating Service, employing best practices. Implemented User Service for client interaction via API gateway secured with OKTA and utilized configuration 
 service for configuration management."
@@ -130,7 +131,7 @@ service for configuration management."
                 <div className='col-span-6'>
                 <Project
                     title="Kafka In One Repo"
-                    img={project1}
+                    img={githubprofile}
                     link="https://github.com/Yashdeep-Jain/KakfaInOneRepo"
                     github="https://github.com/Yashdeep-Jain/KakfaInOneRepo"
                     type="Project"
@@ -139,7 +140,7 @@ service for configuration management."
                 <div className='col-span-6'>
                 <Project
                     title="Junit"
-                    img={project1}
+                    img={githubprofile}
                     link="https://github.com/Yashdeep-Jain/Junit"
                     github="https://github.com/Yashdeep-Jain/Junit"
                     type="Project"

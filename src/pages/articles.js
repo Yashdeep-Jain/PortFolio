@@ -6,6 +6,7 @@ import Link from 'next/link'
 import React, { useRef } from 'react'
 import article1 from "../../public/images/articles/pagination component in reactjs.jpg";
 import article2 from "../../public/images/articles/pagination component in reactjs.jpg";
+import githubprofile from "../../public/images/articles/githubprofile.png"
 import { motion, useMotionValue } from 'framer-motion'
 import article3 from "../../public/images/articles/form validation in reactjs using custom react hook.png";
 
@@ -113,7 +114,7 @@ const articles = () => {
                     <FeaturedArticle 
                     title="COMING SOON"
                     link="/"
-                    img={article2}
+                    img={githubprofile}
                     />
                 </ul>
                 <h2 className='font-bold text-4xl w-full text-center my-16 mt-32'>All Articles</h2>
@@ -122,25 +123,25 @@ const articles = () => {
                     title="Coming soon"
                     date="March 22, 2024"
                     link="/"
-                    img={article3}
+                    img={githubprofile}
                     />
                     <Article 
                     title="Coming soon"
                     date="March 22, 2024"
                     link="/"
-                    img={article3}
+                    img={githubprofile}
                     />
                     <Article 
                     title="Coming soon"
                     date="March 22, 2024"
                     link="/"
-                    img={article3}
+                    img={githubprofile}
                     />
                     <Article 
                     title="Coming soon"
                     date="March 22, 2024"
                     link="/"
-                    img={article3}
+                    img={githubprofile}
                     />
                 </ul>
             </Layout>

@@ -39,11 +39,10 @@ export default function Home() {
                 border-2 border-solid border-transparent hover:border-dark
                 dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light
                 hover:dark:border-light
-                '
-                download={true}>
+                '>
                   Resume <LinkArrow className={"w-6 ml-1"}/>
                   </Link>
-                <Link href="mailto:yashuofficial7@gmail.com" target={"_blank"}
+                <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=yashuofficial7@gmail.com&su=Reaching%20Out" target={"_blank"}
                 className='ml-4 text-lg font-medium capitalize text-dark underline dark:text-light'
                 >Contact</Link>
               </div>
