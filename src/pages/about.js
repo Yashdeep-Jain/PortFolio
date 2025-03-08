@@ -2,7 +2,7 @@ import AnimatedText from '@/components/AnimatedText'
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import React, { useEffect, useRef } from 'react'
-import developer2 from '../../public/images/profile/Developer2.jpg'
+import developer3 from '../../public/images/profile/Developer3.jpg'
 import Image from 'next/image'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import Skills from '@/components/Skills'
@@ -60,7 +60,7 @@ const about = () => {
                         </div>
                         <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light'>
                             <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'/>
-                            <Image src={developer2} alt='Yashdeepjain' className='w-full h-auto rounded-2xl'
+                            <Image src={developer3} alt='Yashdeepjain' className='w-full h-auto rounded-2xl'
                             priority
                             sizes="(max-width: 768px) 100vw,
                             (max-width: 1200px) 50vw,
